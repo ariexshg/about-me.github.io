@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<script type = "text/javascript" src= "arieann_aboutme.js"></script>
+
+<title> About me </title>
+	
+	<link rel="stylesheet" type="text/css" href="arieann_styles.css">
+	
+
+</head>
+<!--4/23/25-->
+
+<body>
+
+	<center><img src="./images/logo.png" width="400px" height="300px" alt = "ECU Logo"></center>
+	
+	<h1>Page Navigation</h1>
+		<nav>
+			<ul>
+			<li><a href="#Aboutme">About me</a></li>
+			<li><a href="#Classes">Classes</a></li>	
+			<li><a href="#Hobbies">Hobbies and Interests</a></li>
+			</ul>
+
+		</nav>
+
+	<h2><a 
+	href="https://th.bing.com/th/id/OIP.dgde4BfYcJaLqZluCfhIzAHaGa?rs=1&pid=ImgDetMain"<img src = "./images/nebula.jpg" alt = "purple and red cloud of gas and dust in space">About me</a></h2>
+	<section id="Aboutme">
+	<p>
+	<b>My name is Arieann Heim-Guerra.</b><br>	
+	<i>My major is Computer Science.</i><br>
+	<u>After this semester, I will be a senior!</u><br>
+	</section>
+
+	<hr 80%>
+	 
+	 <section id="Classes">
+	<h2>Classes</h2>
+	 <p>This semester I am taking the following classes</p>
+		<ul>
+			<li>CMPSC3323 Internet Programming</li>
+			<li>MATH2613 Calculus for Bus, Life, and Soc Sci</li>
+			<li>CMPSC4983 Fundamentals of Cloud Computing</li>
+			<li>CPSMA3913 Discrete Mathematics</li>
+		</ul>
+	 
+	 <br>
+	 <hr 80%>
+	 </br>
+	
+	<div class="container">
+		<div class="grid-1">
+		<h2>CMPSC3323 Internet Programming</h2>
+		<p>In this course I am learning about different types of 
+		programming and coding. Right now, we are learning html and so far, I like it more than C++!</p>
+		</div>
+		
+		<div class="grid-2">
+		<h2>MATH2613 Calculus for Bus, Life, and Soc Sci</h2>
+		<p>So if I'm being completely honest, there isn't much I "enjoy" about this course. It's definitely a more complex math and I really struggle to grasp some of the concepts. I enjoy my instructor though, so that's a plus!</p>
+		</div>
+		
+		<div class="grid-3">
+		<h2>CMPSC4983 Fundamentals of Cloud Computing</h2>
+		<p>This course is actually my favorite at the moment. Learning AWS 
+		and Cloud Computing has really been a bit fun! I'm excited to see what else we learn this semester.</p>
+		</div>
+		
+		<div class="grid-4">
+		<h2>CPSMA3913 Discrete Mathematics </h2>
+		<p>This is my term B course so I haven't started yet, but quite 
+		frankly, I'm a little nervous!</p>
+		</div><br>
+	</section>
+	</div>
+	
+	<br>
+	<hr 80%>
+	<br>
+	
+	<div class="grid-5">
+	<section id="arithmetic">
+	<h2>Arithmetic</h2>
+	<p>Perform basic arithmetic</p>
+	
+	<form name="ArithmeticForm">
+	<label>First number:</label>
+		<input type="number" name="firstarithnum" placeholder="1">
+	<br>
+	<label>Second number:</label>
+		<input type="number" name="secondarithnum" placeholder="2">
+	<br>
+	<br>
+	
+	<legend>Select Operator</legend><br>
+		<input type="radio" id="addition" name="arithmeticoperator" 
+		value="Addition" checked >
+		<label for="addition">Addition</label><br>
+		<input type="radio" id="subtraction" name="arithmeticoperator" 
+		value="Subtraction" checked>
+		<label for="subtraction">Subtraction</label><br>
+		<input type="radio" id="multiplication" name="arithmeticoperator" 
+		value="Multiplication" checked>
+		<label for="multiplication">Multiplication</label><br>
+		<input type="radio" id="division" name="arithmeticoperator" 
+		value="Division" checked>
+		<label for="division">Division</label><br>
+		
+	<br>
+	<button type="button" onclick="performArithmetic()">Calculate</button>
+	</form>
+	</section>
+	</div>
+	<br>
+	
+	<div class="grid-6">
+	<section id="Factorial">
+	<h2>Factorial</h2>
+	<p>Use this to get the factorial of a number.</p>
+	
+	<form name="FactForm">
+	<label>Enter a number:</label>
+		<input type="number" name="factnum" placeholder="1">
+	<br>
+	<button type="button" onclick="performFactorial()">Calculate</button>	
+	</form>
+	</section>
+	</div>
+	<br>
+	
+	<div class="grid-7">
+	<section id="Fibonacci">
+	<h2>Calculate Nth Fibonacci number</h2>
+	<p>Use this to generate the Nth fibonacci number of your choice.</p>
+	
+	<form name="FibonacciForm">
+	<label>Enter a number:</label>
+		<input type="number" name="fibonaccinum" placeholder="1">
+	<br>
+	<button type="button" onclick="performFibonacci()">Generate</button>
+	</form>
+	</section>
+	</div>
+	<br>
+	
+	<div class="grid-8">
+	<section id="Trio">
+	<h2>Maximum, Minimum, and Range</h2>
+	<p>Use this to generate the max, min, and range of 3 numbers.</p>
+	
+	<form name="TrioForm">
+	<label>Emter 1st number:</label>
+		<input type="number" name="trionumone" placeholder="1">
+	<br>
+	<label>Enter 2nd number:</label>
+		<input type="number" name="trionumtwo" placeholder="2">
+	<br>
+	<label>Enter 3rd number:</label>
+		<input type="number" name="trionumthree" placeholder="3">
+	<br><br>
+	<button type="button" onclick="performTrio()">Calculate</button>
+	</form>
+	</section>
+	</div>
+	<br>
+	
+	<div class="grid-9">
+	<section id="signuplist">
+	<h2>Please join our mailing list!</h2>
+	<p>Sign up and never miss out on any perks or information!!</p><br>
+	
+	<form name="SignupForm">
+	<label>First Name:</label>
+		<input type="text" name="firstname" placeholder="John">
+	<br>
+	<label>Last Name:</label>
+		<input type="text" name="lastname" placeholder="Doe">
+	<br>
+	<label>Email Address:</label>
+		<input type="email" name="email" placeholder="john@gmail.com">
+	<label>Zip code:</label>
+		<input type="number" name="zipcode" placeholder="12345">
+	<br><br>
+	<button type="button" onclick="addSignup()">Sign me up!!</button>
+	<button type="reset">Reset</button>
+	
+	</form>
+	</section>
+	</div>
+	<br><br>
+	
+	<div id="signupinfo"></div>
+	
+	
+	<br><br><br>	
+	<section id="Hobbies">
+	<h2>Hobbies and Interests</h2>
+	<p>Here is a pretty cool view of Earth taken from Space!</p>
+	<div><iframe width="560" height="315" src="https://www.youtube.com/embed/EPyl1LgNtoQ?si=jDCcMNdBvrNlCHZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+	
+	<p>When I'm not busy with homework, my feral toddler, or 
+	working I enjoy:</p>
+			<ul>
+			<li>Reading, I enjoy nonfiction for the most 
+			part.</li>
+			<li>Learning more about all the different aspects of 
+			Computer science!</li>
+			<li>I enjoy cooking new recipes.</li>
+			<li>Spending time outdoors and connecting with nature. I live at a lake so nature is a huge part of my life!</li>
+			<li>I also have a passion for space, it's definitely one of my top interests!</li>
+			</ul>
+
+		<br>
+
+		</section>
+
+		<hr 80%>
+
+		<a href="https://www.ecok.edu/" target="_blank">ECU Homepage</a>
+
+		<body background = "https://img.freepik.com/premium-photo/abstract-light-background-with-white-butterflies_476363-6084.jpg?w=2000">
+		
+			
+</center>
+</body>
+</html>
